@@ -2,6 +2,11 @@
 
 Electronics design and Arduino Mega control sketch for the Mongol Tori rover. The hardware images show an RC receiver, three dual-channel motor-driver interfaces, and an adjustable power converter.
 
+<img width="1280" height="720" alt="urc-2020-brac-featured" src="https://github.com/user-attachments/assets/07c06865-83cc-44c4-b261-49fbf5ac7e6a" />
+
+<img width="1800" height="1350" alt="mt6" src="https://github.com/user-attachments/assets/08ca0abd-e62f-49f1-bb41-d49e35d3bca1" />
+
+
 The sketch contains left/right drive mixing, neutral arming, signal-loss shutdown, and speed ramping. All configuration, control functions, and compile-time checks are included in the single sketch; no companion headers are needed.
 
 ![Mongol Tori board preview with Arduino Mega and three motor-driver interfaces](hardware/3D-MT.jpg)
